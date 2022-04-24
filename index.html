@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="wiewport" content="width=device-width, inital-scale=1.0">
+    
+    <title>Sidar Ülek Sitesi</title>
+</head>
+<body>
+    <nav class="navbar fixed-top navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            Bootstrap-5 ile Paneller 
+          </a>
+        </div>
+    </nav>
+
+    <p>.</p>
+
+    <div class="container my-2 p-3">
+        <p class="lead "> <h1>Panel Nedir?</h1> </p>
+        <p> Panel , esnek ve genişletilebilir bir içerik kabıdır . Üstbilgi ve altbilgi seçenekleri, çok çeşitli içerik, bağlamsal arka plan renkleri ve güçlü görüntüleme seçenekleri içerir </p>
+    </div>
+    <div class="container my-2 p-3">
+        <p class="lead"> <h1>Panel-Card İlişkisi</h1> </p>
+        <p>Bootstrap 3'e aşinaysanız, bootstrap 5 ile kartlar eski panellerimizin, kutucuklarımızın ve küçük resimlerimizin yerini aldı.</p>
+    </div>
+<div class="card container my-2 p-3">
+        <div class="card-header">
+          Default Panel 
+        </div>
+    <div class="container container my-2 p-3">
+        <div class="row">
+            <div class="col-4">
+                    <div class="list-group" id="myTablist" role="tablist">
+                        <a href="#görünüm1-listesi"  class="list-group-item list-group-item-action active" id="görünüm1" 
+                        data-bs-toggle="list" role="tab" aria-controls="görünüm1-listesi">
+                            Görünüşü
+                        </a>
+                        <a href="#kod1-listesi"  class="list-group-item list-group-item-action" id="kod1" 
+                        data-bs-toggle="list" role="tab" aria-controls="kod1-listesi">
+                            Kod Satırı
+                        </a>
+                    </div>
+                    
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="tabcontent">
+                    <div class="tab-pane fade show active" id="görünüm1-listesi" role="tabpanel"
+                    aria-labelledby="görünüm1">
+                        <div class="card">
+                            <div class="card-body">
+                             Default Panel
+                            </div>
+                        </div>
+                    </div>    
+                    <div class="tab-pane fade show" id="kod1-listesi" role="tabpanel"
+                        aria-labelledby="kod1">
+                    <p><code>&lt;div class="card"&gt;</code></p>
+                    <p><code>&lt;div class="card-body"&gt;</code></p>
+                    <p>Default Panel</p>
+                    <p><code>&lt;/div&gt;</code></p>
+                    <p><code>&lt;/div&gt;</code></p>
+                    </div> 
+                </div>
+			</div>
+        </div>
+    </div>
+</div> 
+<div class="card container my-2 p-3">
+        <div class="card-header">
+          Liste Paneli
+        </div>
+        <div class="container container my-2 p-3">
+            <div class="row">
+                <div class="col-4">
+                        <div class="list-group" id="myTablist" role="tablist">
+                            <a href="#görünüm2-listesi"  class="list-group-item list-group-item-action active" id="görünüm2" 
+                            data-bs-toggle="list" role="tab" aria-controls="görünüm2-listesi">
+                                Görünüşü
+                            </a>
+                            <a href="#kod2-listesi"  class="list-group-item list-group-item-action" id="kod2" 
+                            data-bs-toggle="list" role="tab" aria-controls="kod2-listesi">
+                                Kod Satırı
+                            </a>
+                        </div>
+                        
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="tabcontent">
+                        <div class="tab-pane fade show active" id="görünüm2-listesi" role="tabpanel"
+                        aria-labelledby="görünüm2">
+                            <div class="card" style="width: 18rem;">
+                                <div class="card-header">
+                                    Öne Çıkan
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                   <li class="list-group-item">Birinci Öğe</li>
+                                   <li class="list-group-item">İkinci Öğe</li>
+                                   <li class="list-group-item">Üçüncü Öğe</li>
+                                </ul>
+                            </div>   
+                        </div>    
+                        <div class="tab-pane fade show" id="kod2-listesi" role="tabpanel"
+                            aria-labelledby="kod2">
+                        <p><code>&lt;div class="card" style="width: 18rem;" &gt;</code></p>
+                        <p><code>&lt;div class="card-header"&gt;</code></p>
+                        <p>Öne Çıkan</p>
+                        <p><code>&lt;/div&gt;</code></p>
+                        <p><code>&lt;ul class="list-group list-group-flush" &gt;</code></p>
+                        <p><code>&lt;li class="list-group-item">Birinci Öğe &lt;/li&gt;</code></p>
+                        <p><code>&lt;li class="list-group-item">İkinci Öğe &lt;/li&gt;</code></p>
+                        <p><code>&lt;li class="list-group-item">Üçüncü Öğe &lt;/li&gt;</code></p>
+                        <p><code>&lt;/ul&gt;</code></p>
+                        <p><code>&lt;/div&gt;</code></p>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+        </div> 
+</div>
+<div class="card container my-2 p-3">
+        <div class="card-header">
+        Alıntı-Üstbilgi Paneli
+        </div>
+    <div class="container container my-2 p-3">
+        <div class="row">
+            <div class="col-4">
+               <div class="list-group" id="myTablist" role="tablist">
+                    <a href="#görünüm3-listesi"  class="list-group-item list-group-item-action active" id="görünüm3" 
+                    data-bs-toggle="list" role="tab" aria-controls="görünüm3-listesi">
+                        Görünüşü
+                    </a>
+                    <a href="#kod3-listesi"  class="list-group-item list-group-item-action" id="kod3" 
+                    data-bs-toggle="list" role="tab" aria-controls="kod3-listesi">
+                        Kod Satırı
+                    </a>
+                </div>
+                
+        </div>
+        <div class="col-8">
+            <div class="tab-content" id="tabcontent">
+                <div class="tab-pane fade show active" id="görünüm3-listesi" role="tabpanel"
+                aria-labelledby="görünüm3">
+                <div class="card">
+                    <div class="card-header">
+                      Alıntı
+                    </div>
+                    <div class="card-body">
+                      <blockquote class="blockquote mb-0">
+                        <p>Bir hamam böceği öldürürsen kahraman, bir kelebeği öldürürsen şeytansın. Ahlâkın estetik standartları vardır.</p>
+                        <footer class="blockquote-footer">Friedrich Nietzsche</footer>
+                      </blockquote>
+                    </div>
+                  </div>
+                </div>    
+                <div class="tab-pane fade show" id="kod3-listesi" role="tabpanel"
+                    aria-labelledby="kod3">
+                <p><code>&lt;div class="card"&gt;</code></p>
+                <p><code>&lt;div class="card-header"&gt;</code></p>
+                <p>Alıntı</p>
+                <p><code>&lt;/div&gt;</code></p>
+                <p><code>&lt;div class="card-body&gt;</code></p>
+                <p><code>&lt;blockquote class="blockquote mb-0"&gt;</code></p>
+                <p><code>&lt;p&gt;</code> Bir hamam böceği öldürürsen kahraman, bir kelebeği öldürürsen şeytansın. Ahlâkın estetik standartları vardır. <code>&lt;/p&gt;</code></p>
+                <p><code>&lt;footer class="blockquote-footer"&gt;</code>Friedrich Nietzsche<code>&lt;/footer&gt;</code></p>
+                <p><code>&lt;/blockquote&gt;</code></p>
+                <p><code>&lt;/div&gt;</code></p>
+                </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="card container my-2 p-3">
+    <div class="card-header">
+    Panelin Arkaplan Rengi
+    </div>
+    <div class="container container my-2 p-3">
+        <div class="row">
+            <div class="col-4">
+                    <div class="list-group" id="myTablist" role="tablist">
+                        <a href="#görünüm4-listesi"  class="list-group-item list-group-item-action active" id="görünüm4" 
+                        data-bs-toggle="list" role="tab" aria-controls="görünüm4-listesi">
+                            Görünüşü
+                        </a>
+                        <a href="#kod4-listesi"  class="list-group-item list-group-item-action" id="kod4" 
+                        data-bs-toggle="list" role="tab" aria-controls="kod2-listesi">
+                            Kod Satırı
+                        </a>
+                    </div>
+                    
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="tabcontent">
+                    <div class="tab-pane fade show active" id="görünüm4-listesi" role="tabpanel"
+                    aria-labelledby="görünüm4">
+                    <div class="card text-white bg-success mb-3" style="max-width: 18rem;">
+                        <div class="card-header">Başlık</div>
+                        <div class="card-body">
+                          <h5 class="card-title">Bilgi Kartı Başlığı</h5>
+                          <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad excepturi blanditiis quidem repudiandae. Veniam aliquid praesentium sunt voluptates.</p>
+                        </div>
+                    </div>
+
+                    </div>    
+                    <div class="tab-pane fade show" id="kod4-listesi" role="tabpanel"
+                        aria-labelledby="kod4">
+                                 <p><code>&lt;div class="card text-white bg-success mb-3" style="max-width: 18rem;"&gt;</code></p>
+                                 <p><code>&lt;div class="card-header"&gt;</code>Başlık<code>&lt;/div&gt;</code></p>
+                                 <p><code>&lt;div class="card-body"&gt;</code></p>
+                                 <p><code>&lt;h5 class="card-title"&gt;</code>Bilgi Kartı Başlığı<code>&lt;/h5&gt;</code>
+                                 <p><code>&lt;p class="card-text"&gt;</code>Lorem<code>&lt;/p&gt;</code></p>
+                                 <p><code>&lt;/div&gt;</code></p>
+                                 <p><code>&lt;/div&gt;</code></p>                    
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+<div class="card container my-2 p-3">
+    <div class="card-header">
+      Tab Panel
+    </div>
+    <div class="container container my-2 p-3">
+        <div class="row">
+            <div class="col-4">
+                    <div class="list-group" id="myTablist" role="tablist">
+                        <a href="#görünüm5-listesi"  class="list-group-item list-group-item-action active" id="görünüm5" 
+                        data-bs-toggle="list" role="tab" aria-controls="görünüm5-listesi">
+                            Görünüşü
+                        </a>
+                        <a href="#kod5-listesi"  class="list-group-item list-group-item-action" id="kod5" 
+                        data-bs-toggle="list" role="tab" aria-controls="kod5-listesi">
+                            Kod Satırı
+                        </a>
+                    </div>
+                    
+            </div>
+            <div class="col-8">
+                <div class="tab-content" id="tabcontent">
+                    <div class="tab-pane fade show active" id="görünüm5-listesi" role="tabpanel"
+                    aria-labelledby="görünüm5">
+                    Soldaki "Görünüşü" ve "Kod Satırı" seçenekleri bir tab panel örneğidir.   
+                    
+                    </div>    
+                    <div class="tab-pane fade show" id="kod5-listesi" role="tabpanel"
+                        aria-labelledby="kod5">
+                        <p><code>&lt;div class="container container my-2 p-3"&gt;</code></p>
+                            <p><code>&lt;div class="row"&gt;</code></p>
+                                <p><code>&lt;div class="col-4"&gt;</code></p>
+                                    <p><code>&lt;div class="list-group" id="myTablist" role="tablist"&gt;</code></p>
+                                        <p><code>&lt;a href="#görünüm1-listesi"  class="list-group-item list-group-item-action active" id="görünüm1" 
+                                            data-bs-toggle="list" role="tab" aria-controls="görünüm1-listesi"&gt;</code></p>
+                                                Görünüşü
+                                                <p><code>&lt;/a&gt;</code></p>
+                                                    <p><code>&lt;a href="#kod1-listesi"  class="list-group-item list-group-item-action" id="kod1" 
+                                            data-bs-toggle="list" role="tab" aria-controls="kod1-listesi"&gt;</code></p>
+                                                Kod Satırı
+                                                <p><code>&lt;/a&gt;</code></p>
+                                                    <p><code>&lt;/div&gt;</code></p>
+                                        
+                                                        <p><code>&lt;/div&gt;</code></p>
+                                                            <p><code>&lt;div class="col-8"&gt;</code></p>
+                                                                <p><code>&lt;div class="tab-content" id="tabcontent"&gt;</code></p>
+                                                                    <p><code>&lt;div class="tab-pane fade show active" id="görünüm1-listesi" role="tabpanel"
+                                        aria-labelledby="görünüm1"&gt;</code></p>
+                                        <p><code>&lt;div class="card"&gt;</code></p>
+                                            <p><code>&lt;div class="card-body"&gt;</code></p>
+                                                 Default Panel
+                                                 <p><code>&lt;/div&gt;</code></p>
+                                                    <p><code>&lt;/div&gt;</code></p>
+                                                        <p><code>&lt;/div&gt;</code></p>    
+                                        <p><code>&lt;div class="tab-pane fade show" id="kod1-listesi" role="tabpanel"
+                                            aria-labelledby="kod1"&gt;</code></p>
+                                        ...
+                                        <p><code>&lt;/div&gt;</code></p> 
+                                            <p><code>&lt;/div&gt;</code></p>
+                                                <p><code>&lt;/div&gt;</code></p>
+                                                    <p><code>&lt;/div&gt;</code></p>
+                                                        <p><code>&lt;/div&gt;</code></p>
+
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div> 
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>
